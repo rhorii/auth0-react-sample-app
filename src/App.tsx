@@ -4,6 +4,7 @@ import viteLogo from "/vite.svg";
 import "./App.css";
 import LoginButton from "./LoginButton";
 import LogoutButton from "./LogoutButton";
+import Profile from "./Profile";
 
 function App() {
   const [count, setCount] = useState(0);
@@ -32,6 +33,7 @@ function App() {
       </p>
       <LoginButton />
       <LogoutButton />
+      <Profile />
     </>
   );
 }
